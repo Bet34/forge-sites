@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forge Sites • Professional Websites Built Fast + Website Flipping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        
+        :root {
+            --primary: #10b981;
+        }
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .font-display {
+            font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif;
+            font-weight: 600;
+        }
+
+        .section-header {
+            font-size: 2.75rem;
+            line-height: 1.1;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        .service-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <!-- NAV -->
+    <nav class="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 backdrop-blur-lg">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-emerald-500 rounded-2xl flex items-center justify-center">
+                        <i class="fa-solid fa-hammer text-zinc-950 text-2xl"></i>
+                    </div>
+                    <div>
+                        <span class="font-display text-3xl font-semibold tracking-tighter">Forge</span>
+                        <span class="font-display text-3xl font-semibold tracking-tighter text-emerald-400">Sites</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center gap-x-8 text-sm">
+                    <a href="#services" class="hover:text-emerald-400 transition-colors">Services</a>
+                    <a href="#flipping" class="hover:text-emerald-400 transition-colors">Website Flipping</a>
+                    <a href="#process" class="hover:text-emerald-400 transition-colors">How It Works</a>
+                </div>
+                
+                <div class="flex items-center gap-x-4">
+                    <a href="#contact" 
+                       class="px-5 py-2.5 text-sm font-medium rounded-2xl border border-zinc-700 hover:bg-zinc-900 transition-colors">
+                        Book a Call
+                    </a>
+                    <a href="#contact" 
+                       class="px-5 py-2.5 text-sm font-semibold bg-emerald-500 hover:bg-emerald-600 text-zinc-950 rounded-2xl transition-colors">
+                        Get Your Site Built
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
+        <div class="inline-flex items-center gap-2 bg-zinc-900 border border-zinc-800 px-4 py-1.5 rounded-3xl text-sm mb-6">
+            <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+            <span class="text-emerald-400 font-medium">Now accepting new clients for Q1 2026</span>
+        </div>
+        
+        <h1 class="text-6xl md:text-7xl font-display font-bold tracking-tighter leading-none mb-6">
+            Professional websites.<br>
+            Built in days.<br>
+            <span class="text-emerald-400">Ready to make money.</span>
+        </h1>
+        
+        <p class="max-w-2xl mx-auto text-xl text-zinc-400 mb-10">
+            I build clean, high-converting no-code websites for local businesses and serious operators who want results fast — plus I teach the exact system I use to flip digital assets for profit.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#contact" 
+               class="inline-flex items-center justify-center gap-3 bg-white text-zinc-950 px-10 py-4 rounded-3xl font-semibold text-lg hover:bg-zinc-100 transition-all active:scale-[0.985]">
+                <span>Get Your Website Built</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#flipping" 
+               class="inline-flex items-center justify-center gap-3 border border-zinc-700 hover:bg-zinc-900 px-8 py-4 rounded-3xl font-semibold text-lg transition-all">
+                Learn Website Flipping
+            </a>
+        </div>
+        
+        <div class="mt-8 flex items-center justify-center gap-x-8 text-sm text-zinc-500">
+            <div class="flex items-center gap-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i>
+                <span>7-day average delivery</span>
+            </div>
+            <div class="flex items-center gap-x-2">
+                <i class="fa-solid fa-check text-emerald-500"></i>
+                <span>No monthly fees</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRUST BAR -->
+    <div class="border-y border-zinc-800 bg-zinc-900/50">
+        <div class="max-w-6xl mx-auto px-6 py-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 text-center">
+                <div>
+                    <div class="text-4xl font-semibold text-emerald-400">47</div>
+                    <div class="text-sm text-zinc-400 mt-1">Sites delivered in 2025</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-semibold text-emerald-400">3.2x</div>
+                    <div class="text-sm text-zinc-400 mt-1">Average revenue lift for clients</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-semibold text-emerald-400">24-38x</div>
+                    <div class="text-sm text-zinc-400 mt-1">Typical flip multiples achieved</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-semibold text-emerald-400">100%</div>
+                    <div class="text-sm text-zinc-400 mt-1">Client satisfaction rate</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="text-center mb-12">
+            <div class="text-emerald-400 text-sm font-semibold tracking-widest mb-3">WHAT I BUILD</div>
+            <h2 class="section-header">Websites that actually work</h2>
+            <p class="text-zinc-400 mt-3 max-w-md mx-auto">Clean design. Fast loading. Built to convert and generate leads.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Service 1 -->
+            <div class="service-card bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-store text-emerald-400 text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3">Local Business Sites</h3>
+                <p class="text-zinc-400 mb-6">3–6 page professional websites for restaurants, trades, clinics, coaches, and service businesses. Optimized for Google and leads.</p>
+                <div class="text-sm">
+                    <div class="flex justify-between py-2 border-t border-zinc-800">
+                        <span class="text-zinc-400">Starting at</span>
+                        <span class="font-semibold">$1,200</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-t border-zinc-800">
+                        <span class="text-zinc-400">Delivery</span>
+                        <span class="font-semibold">5–7 days</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-chart-line text-emerald-400 text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3">Affiliate & Content Sites</h3>
+                <p class="text-zinc-400 mb-6">Niche review, comparison, and authority sites built for SEO and affiliate income. Perfect for flipping or long-term cash flow.</p>
+                <div class="text-sm">
+                    <div class="flex justify-between py-2 border-t border-zinc-800">
+                        <span class="text-zinc-400">Starting at</span>
+                        <span class="font-semibold">$2,800</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-t border-zinc-800">
+                        <span class="text-zinc-400">Best for</span>
+                        <span class="font-semibold">Flipping + Passive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-sync text-emerald-400 text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3">Website Flipping Projects</h3>
+                <p class="text-zinc-400 mb-6">I take existing sites, improve them (design, SEO, monetization), and help you sell them at a premium multiple — or build one from scratch to flip.</p>
+                <div class="text-sm">
+                    <div class="flex justify-between py-2 border-t border-zinc-800">
+                        <span class="text-zinc-400">Project fee</span>
+                        <span class="font-semibold">From $3,500</span>
+                    </div>
+                    <div class="flex justify-between py-2 border-t border-zinc-800">
+                        <span class="text-zinc-400">Typical ROI</span>
+                        <span class="font-semibold">2–5x on exit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WEBSITE FLIPPING SECTION -->
+    <div id="flipping" class="bg-zinc-900 border-y border-zinc-800 py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-x-12 items-center">
+                <div class="md:col-span-7">
+                    <div class="text-emerald-400 text-sm font-semibold tracking-widest mb-3">THE REAL EDGE</div>
+                    <h2 class="section-header leading-none mb-6">I don’t just build sites.<br>I teach you how to flip them.</h2>
+                    
+                    <div class="space-y-6 text-lg text-zinc-300">
+                        <p>Website flipping in 2026 is still extremely profitable — especially when you know exactly what buyers are paying 30–40x monthly profit for.</p>
+                        <p>I combine real marketplace data with hands-on experience to help you either:</p>
+                    </div>
+                    
+                    <ul class="mt-8 space-y-4">
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1.5"></i>
+                            <span>Build a site from scratch specifically to flip for profit</span>
+                        </li>
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1.5"></i>
+                            <span>Buy an undervalued site, improve it fast, and exit at a premium</span>
+                        </li>
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-check text-emerald-400 mt-1.5"></i>
+                            <span>Turn your existing site into a sellable asset</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="md:col-span-5 mt-10 md:mt-0">
+                    <div class="bg-zinc-950 border border-zinc-800 rounded-3xl p-8">
+                        <div class="text-sm text-zinc-400 mb-4">2026 MARKET REALITY</div>
+                        <div class="space-y-5">
+                            <div class="flex justify-between items-baseline">
+                                <div class="text-zinc-400">Average multiple (good sites)</div>
+                                <div class="text-3xl font-semibold text-emerald-400">34–38x</div>
+                            </div>
+                            <div class="flex justify-between items-baseline">
+                                <div class="text-zinc-400">Fastest growing category</div>
+                                <div class="font-medium">YouTube + Content Sites</div>
+                            </div>
+                            <div class="flex justify-between items-baseline">
+                                <div class="text-zinc-400">Best ROI play</div>
+                                <div class="font-medium">"Buy, Improve, Flip"</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROCESS -->
+    <div id="process" class="max-w-5xl mx-auto px-6 py-20">
+        <div class="text-center mb-12">
+            <div class="text-emerald-400 text-sm font-semibold tracking-widest mb-3">HOW IT WORKS</div>
+            <h2 class="section-header">Simple. Fast. Effective.</h2>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="text-emerald-400 text-6xl font-display font-bold mb-4 opacity-80">01</div>
+                <h4 class="font-semibold text-xl mb-3">Discovery Call</h4>
+                <p class="text-zinc-400">We talk about your business, goals, and what kind of site (or flipping project) you actually need.</p>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="text-emerald-400 text-6xl font-display font-bold mb-4 opacity-80">02</div>
+                <h4 class="font-semibold text-xl mb-3">Build & Launch</h4>
+                <p class="text-zinc-400">I handle everything — design, copy, SEO setup, and launch. You review and approve. Done in days, not months.</p>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="text-emerald-400 text-6xl font-display font-bold mb-4 opacity-80">03</div>
+                <h4 class="font-semibold text-xl mb-3">Grow or Flip</h4>
+                <p class="text-zinc-400">Use the site to get leads and make money — or follow my proven process to improve it and sell it for a profit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FINAL CTA / CONTACT -->
+    <div id="contact" class="bg-zinc-900 border-t border-zinc-800 py-16">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-display font-bold tracking-tighter mb-4">Ready to get your site live?</h2>
+            <p class="text-xl text-zinc-400 mb-8">Book a free 20-minute call. I’ll show you exactly what your site could look like and how we can make it profitable.</p>
+            
+            <a href="#" onclick="alert('Replace this with your real Calendly or booking link!'); return false;" 
+               class="inline-block bg-emerald-500 hover:bg-emerald-600 transition-colors text-zinc-950 font-semibold px-10 py-4 rounded-3xl text-lg">
+                Book Your Free Strategy Call →
+            </a>
+            
+            <p class="text-xs text-zinc-500 mt-6">No pressure. No obligation. Just clarity on your next move.</p>
+            
+            <div class="mt-10 text-sm text-zinc-500">
+                Or email me directly: <span class="text-emerald-400">mike@forgesites.com</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-t border-zinc-800 py-8">
+        <div class="max-w-7xl mx-auto px-6 text-center text-xs text-zinc-500">
+            © 2026 Forge Sites. Built for operators who move fast.
+        </div>
+    </footer>
+
+    <script>
+        function initializeTailwind() {
+            console.log('%c[Forge Sites] Site initialized successfully.', 'color:#3f3f46');
+        }
+        initializeTailwind();
+    </script>
+</body>
+</html>
